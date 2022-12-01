@@ -47,7 +47,7 @@ public class PostLoginStepDefs {
 
     @Given("Post login with all valid value as mentee")
     public void postLoginWithAllValidValueAsMentee() {
-        File json = new File(MentutorAPI.JSON_REQ_BODY+"/PostLoginMentee.json.json");
+        File json = new File(MentutorAPI.JSON_REQ_BODY+"/PostLoginMentee.json");
         mentutorAPI.postLoginUser(json);
     }
 }
